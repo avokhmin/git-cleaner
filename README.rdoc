@@ -1,6 +1,6 @@
 = git-cleaner
 
-Description goes here.
+Removes all of the old branches that have been merged into master.
 
 == Contributing to git-cleaner
  
