@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/tasks/git.rake"
+    "git-cleaner.gemspec",
+    "lib/tasks/git.rb"
   ]
   s.homepage = "http://github.com/avokhmin/git-cleaner"
   s.licenses = ["MIT"]
