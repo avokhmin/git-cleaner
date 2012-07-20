@@ -1,7 +1,12 @@
+require 'git-cleaner'
+require 'rails'
+
 module GitCleaner
-  class GitCleanerRailtie < Rails::Railtie
+  class Railtie < Rails::Railtie
+
     rake_tasks do
-      load "tasks/git.rake"
+      GitCleaner.load_tasks
     end
+
   end
 end

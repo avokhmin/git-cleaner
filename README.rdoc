@@ -2,6 +2,33 @@
 
 Removes all of the old branches that have been merged into master.
 
+== Installation
+
+Rails 2
+-------
+
+Add the gem to config/development.rb
+
+    config.gem 'git-cleaner', :lib => false
+
+And add the following to the end of Rakefile
+
+    begin
+      require 'git-cleaner'
+      GitCleaner.load_tasks if defined?(GitCleaner)
+    rescue LoadError => loaderror
+      $stderr.puts %{Couldn't load git-cleaner}
+    end
+    
+Rails 3
+-------
+
+Add the gem to the development group of your Gemfile
+
+    gem 'git-cleaner', :require => false
+    
+That's it!
+
 == Contributing to git-cleaner
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
