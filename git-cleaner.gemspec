@@ -25,8 +25,8 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "git-cleaner.gemspec",
-    "lib/git_cleaner.rb",
-    "lib/git_cleaner/railtie.rb",
+    "lib/git-cleaner.rb",
+    "lib/git-cleaner/railtie.rb",
     "lib/tasks/git.rake"
   ]
   s.homepage = "http://github.com/avokhmin/git-cleaner"
