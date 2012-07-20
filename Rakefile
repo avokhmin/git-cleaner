@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "git-cleaner"
   gem.homepage = "http://github.com/avokhmin/git-cleaner"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Helper for working with git repository}
+  gem.description = %Q{Removes all of the old branches that have been merged into master}
   gem.email = "avokhmin@gmail.com"
   gem.authors = ["Vokhmin Alexey V"]
   # dependencies defined in Gemfile
